@@ -1,0 +1,18 @@
+.control{
+  padding: 2rem 1rem .5rem 1rem;
+}
+button{
+  padding: .5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: var(--pri-color);
+  cursor: pointer;
+  color: var(--font-color-light);
+}
+button#clear{
+  background-color: red;
+  color: rgb(255, 255, 255);
+}
+button:hover, button#clear:hover{
+  background-color: var(--sec-color);
+}

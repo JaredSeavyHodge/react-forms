@@ -1,0 +1,22 @@
+.lesson-plan{
+  flex-grow: 1;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: .3fr repeat(5, 1fr);
+  grid-template-rows: .3fr 3fr repeat(3, 1fr);
+  gap: 2px;
+  background-color: #00addc;
+  padding: 2px;
+}
+.grid-item{
+  word-wrap: break-word;
+  text-align: center;
+}
+.table-header{
+  background-color: var(--bg-color-dark);
+  color: var(--font-color-dark);
+  font-weight: bold;
+  padding: 3px;
+  text-align: center;
+}
