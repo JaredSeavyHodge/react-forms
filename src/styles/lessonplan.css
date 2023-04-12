@@ -15,8 +15,10 @@
 }
 .table-header{
   background-color: var(--bg-color-dark);
-  color: var(--font-color-dark);
   font-weight: bold;
   padding: 3px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

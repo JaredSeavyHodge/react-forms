@@ -1,5 +1,5 @@
 .footer{
-    padding: 1rem;
+    padding: .5rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -10,5 +10,8 @@
     border-radius: 5px;
     border: 1px solid #ff028b;
     width: 100%;
-    margin: 0 5px 5px;
+
+}
+.footer > * > div:last-child{
+    margin-top: 5px;
 }

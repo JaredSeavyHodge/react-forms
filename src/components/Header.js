@@ -13,7 +13,7 @@ class Header extends Component {
                 
                 <div className="flex-container flex-center">
                     <h3>Classroom:</h3>
-                    <input type="text" name="classroom" id="classroom" />
+                    <div contentEditable="true" id="classroom" />
                 </div>
                 
                 <div className="flex-container flex-col">
