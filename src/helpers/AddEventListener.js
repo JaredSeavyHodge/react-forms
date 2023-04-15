@@ -1,11 +1,10 @@
-import { useEffect } from "react"
-import saveToLocal from "./saveToLocal";
+import SaveToLocal from "./SaveToLocal";
 
 
  const AddEventListener = (element, event, callback) => {
     const elements = document.querySelectorAll(element);
     for (let i = 0; i < elements.length; i++) {
-        elements[i].addEventListener(event, saveToLocal);
+        elements[i].addEventListener(event, SaveToLocal);
     }
  }
 

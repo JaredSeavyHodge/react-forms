@@ -3,9 +3,9 @@ import Control from './components/Control';
 import useScript from './helpers/useScript';
 import Canvas from './components/Canvas';
 import addEventListener from './helpers/AddEventListener';
-import saveToLocal from './helpers/saveToLocal';
+import SaveToLocal from './helpers/SaveToLocal';
 import { useEffect } from 'react';
-import loadFromLocal from './helpers/LoadFromLocal';
+import LoadFromLocal from './helpers/LoadFromLocal';
 
 function App() {
   useScript ("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js");
@@ -13,9 +13,9 @@ function App() {
 
   
   useEffect(() => {
-    loadFromLocal();
-    addEventListener("div[contenteditable]", "input", saveToLocal);
-    addEventListener("input", "input", saveToLocal);
+    LoadFromLocal();
+    addEventListener("div[contenteditable]", "input", SaveToLocal);
+    addEventListener("input", "input", SaveToLocal);
   }, [])
 
   return (

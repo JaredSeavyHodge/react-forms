@@ -12,6 +12,7 @@
 .grid-item{
   word-wrap: break-word;
   text-align: center;
+  font-size: small;
 }
 .table-header{
   background-color: var(--bg-color-dark);
