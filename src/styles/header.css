@@ -9,6 +9,7 @@ input {
     border-radius: 5px;
     border: 1px solid #ff028b;
     min-width: 200px;
+    max-width: 350px;
 }
 div#classroom{
     min-width: 50px;

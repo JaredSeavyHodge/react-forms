@@ -2,9 +2,7 @@ import { Component } from "react";
 
 class Control extends Component {
     generatePdf() {
-        // Capture the entire grid-container element
         const canvasContainer = document.getElementById("canvas");
-    
         window.html2canvas(canvasContainer, {
             scrollHeight: canvasContainer.scrollHeight,
             scrollWidth: canvasContainer.scrollWidth,
@@ -16,9 +14,11 @@ class Control extends Component {
     }
     clear() {
         document.querySelectorAll("div[contenteditable]").forEach(element => {
+            element.value = "";
             element.innerHTML = "";
         });
         document.querySelectorAll("input").forEach(element => {
+            element.value = "";
             element.innerHTML = "";
         });
         localStorage.clear();

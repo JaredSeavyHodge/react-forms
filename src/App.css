@@ -60,6 +60,7 @@ input{
 div[contenteditable] {
   background-color: white;
   padding: 5px;
-  overflow: auto;
+  scroll-behavior: none;
+  overflow: hidden;
   text-align: left;
 }

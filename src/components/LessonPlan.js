@@ -3,7 +3,7 @@ import { Component } from "react";
 class LessonPlan extends Component {
     render() {
         return (
-            <div className="lesson-plan grid-container">
+            <div className="grid-container lesson-plan">
                 <div className="table-header"></div>
                 <div className="table-header">Monday</div>
                 <div className="table-header">Tuesday</div>

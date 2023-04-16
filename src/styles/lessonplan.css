@@ -1,10 +1,13 @@
 .lesson-plan{
-  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .grid-container{
   display: grid;
   grid-template-columns: .3fr repeat(5, 1fr);
-  grid-template-rows: .3fr 4fr .75fr .75fr 1fr;
+  --th: calc(100% - 8px);
+  grid-template-rows: calc(var(--th) * 0.05) calc(var(--th) * 0.6) calc(var(--th) * 0.1) calc(var(--th) * 0.1) calc(var(--th) * 0.15);
   gap: 2px;
   background-color: #00addc;
   padding: 2px;
