@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-forms/static/css/main.86d3eb93.css",
-    "main.js": "/react-forms/static/js/main.042633a0.js",
+    "main.css": "/react-forms/static/css/main.6c382468.css",
+    "main.js": "/react-forms/static/js/main.c8e96188.js",
     "static/js/787.b02cee40.chunk.js": "/react-forms/static/js/787.b02cee40.chunk.js",
     "static/media/childcare-logo.png": "/react-forms/static/media/childcare-logo.f08db747366debbdeef8.png",
     "index.html": "/react-forms/index.html",
-    "main.86d3eb93.css.map": "/react-forms/static/css/main.86d3eb93.css.map",
-    "main.042633a0.js.map": "/react-forms/static/js/main.042633a0.js.map",
+    "main.6c382468.css.map": "/react-forms/static/css/main.6c382468.css.map",
+    "main.c8e96188.js.map": "/react-forms/static/js/main.c8e96188.js.map",
     "787.b02cee40.chunk.js.map": "/react-forms/static/js/787.b02cee40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86d3eb93.css",
-    "static/js/main.042633a0.js"
+    "static/css/main.6c382468.css",
+    "static/js/main.c8e96188.js"
   ]
 }
