@@ -1,0 +1,33 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+.form-header > div {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    width: 400px;
+}
+.form-header > div > *{
+    padding: 10px;
+}
+.form-body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}

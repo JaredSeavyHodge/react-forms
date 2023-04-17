@@ -11,8 +11,9 @@
 @import "./styles/canvas.css";
 @import "./styles/control.css";
 @import "./styles/header.css";
+@import "./styles/activitytile.css";
+@import "./styles/form.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300;500;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
-
 
 * {
   box-sizing: border-box;
@@ -56,6 +57,8 @@
 input{
   min-height: 30px;
   padding : .2rem .5rem;
+  border-radius: 5px;
+  border: 1px solid #ff028b;
 }
 div[contenteditable] {
   background-color: white;

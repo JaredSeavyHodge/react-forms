@@ -16,6 +16,7 @@
   word-wrap: break-word;
   text-align: center;
   font-size: small;
+  height: 100%;
 }
 .table-header{
   background-color: var(--bg-color-dark);

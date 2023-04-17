@@ -1,27 +1,29 @@
 import './App.css';
-import Control from './components/Control';
 import useScript from './helpers/useScript';
-import Canvas from './components/Canvas';
+import Form from './components/Form';
+import Control from './components/Control';
 import addEventListener from './helpers/AddEventListener';
 import saveToLocal from './helpers/saveToLocal';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import loadFromLocal from './helpers/loadFromLocal';
 
 function App() {
   useScript ("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js");
   useScript ("https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js");
 
+  const [formData, setFormData] = useState({});
   
   useEffect(() => {
-    loadFromLocal();
-    addEventListener("div[contenteditable]", "input", saveToLocal);
-    addEventListener("input", "input", saveToLocal);
-  }, [])
+    console.log(formData);
+    // loadFromLocal();
+    // addEventListener("div[contenteditable]", "input", saveToLocal);
+    // addEventListener("input", "input", saveToLocal);
+  }, [formData])
 
   return (
     <div className="App flex-container flex-col">
       <Control />
-      <Canvas />
+      <Form formData={formData} setFormData={setFormData} />
     </div>
   );
 }
