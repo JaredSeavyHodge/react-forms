@@ -1,23 +1,11 @@
 import React from 'react';
 import ActivityTile from './ActivityTile';
+import Header from './Header';
 
 const Form = ({formData, setFormData}) => {
     return (
         <div className="form">
-            <div className="form-header">
-                <div>
-                    <label htmlFor="teachers">Teachers:</label>
-                    <input type="text" name="teachers" id="teachers" />
-                </div>
-                <div>
-                    <label htmlFor="classroom">Classroom:</label>
-                    <input type="text" name="classroom" id="classroom" />
-                </div>
-                <div>
-                    <label htmlFor="date">Date:</label>
-                    <input type="date" name="date" id="date" />
-                </div>
-            </div>
+            <Header />
             <div className="form-body">
                 {[1,2,3,4,5,6].map( i => {
                     return <ActivityTile name={`Interest Activity ${i}`} formData={formData} setFormData={setFormData} />
